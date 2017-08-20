@@ -10,42 +10,98 @@
 </head>
 <body>
 	
+<div class = "container">
+
+		<!--Heading for Crystal Collector -->
+		<div class = "row">
+			<div class = "col-lg-4">
+				<h1 class = "gameName">Crystal Collector!</h1>
+			</div>
+		</div>
+		<br>
 
 
-	<!--Heading for Crystal Collector -->
+		<!--Main body for the game instructions -->
+		<div class = "row">
+			<div class = "col-lg-6">
+				<p class = "gameInstructions">
+					You will be given a random number at the start of the game. <br><br>
+					There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br><br>
+					You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. <br><br>
+					The value of each crystal is hidden from you until you click on it.<br><br>
+					Each time when the game starts, the game will change the values of each crystal.<br><br><br>
+				</p>
+			</div>
+		</div>
+		<br>	
 
 
-	<!--Main body for the game instructions -->
 
+		<!--Box containing the randomly generated number you must reach -->
+		<!--Box floated to the left of the randomly generated target box, containing win and loss counter -->
 
+		<div class = "row">
+			<div class = "col-lg-3">
+				<!--Insert randomly generated number here -->
+				<div class = "randomNumber">
+					<h2>0</h2>
+				</div>
+			</div>
+			<div class = "col-lg-2">
+			<p class = "wins">Wins: </p><br><br>
+			<p class = "losses">Losses: </p>
+			</div>
+		</div>
+		<br>	
 
-
-	<!--Box containing the randomly generated number you must reach -->
-
-
-
-	<!--Box floated to the left of the randomly generated target box, containing win and loss counter -->
-
-
-
-	<!-- 4 pictures that have a randomly generated number assigned to them inline block with a click even function -->
+		<!-- 4 pictures that have a randomly generated number assigned to them inline block with a click even function -->
+		<div class = "row">
+			<div class = "col-lg-2">
+				<img src = "assets/images/gallery1.jpg">
+			</div>
+			<div class = "col-lg-2">
+				<img src = "assets/images/gallery2.jpg">
+			</div>
+			<div class = "col-lg-2">
+				<img src = "assets/images/gallery3.jpg">
+			</div>
+			<div class = "col-lg-2">
+				<img src = "assets/images/gallery4.jpg">
+			</div>
+		</div>
+		<br>
 
 
 	<!--Box that just says Your total score is: -->
+		<div class = "row">
+			<div class = "col-lg-3">
+				<p class = "totalScore">Your total score is: </p>
+			</div>
+		</div>
+		<br>
+
 
 
 	<!--Box below that contains the current counter -->
 
 
+		<div class = "row">
+			<div class = "col-lg-3">
+				<div class = "actualScore">
+					<h2>0</h2>
+				</div>
+			</div>
+		</div>		
 
 
 
 
 
 
-
+	
+</body>
 
 	<script type="assets/javascript/game.js"></script>
 
-</body>
+
 </html>

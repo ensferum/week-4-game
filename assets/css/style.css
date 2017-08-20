@@ -29,23 +29,25 @@ body{
     margin: 10px;
 }
 
-#randomNumber{
+.numberToMatch{
 	background-color: #58C28C;
 	color: purple;
     width: 50%;
     padding: 10px;
     margin: 10px;
+    height: 150px;
 
 }
 
-.winLossCounter{
+.winsAndLosses{
 
 	background-color: #7BD4EA;
-    width: 50%;
+    width: 80%;
     color:green;
     padding: 10px;
     margin: 10px;
     margin-left: -50%;
+    height: 150px;
 
 }
 
@@ -57,11 +59,11 @@ body{
 	width: 125px;
 	height: 125px;
 	padding: 20px;
-	margin-left: -10px;
+	
 	
 }
 
-.totalScore{
+.currentCounter{
 	background-color: #589492;
     width: auto;
     padding: 10px;
@@ -70,7 +72,7 @@ body{
 
 }
 
-#actualScore{
+.userTotal{
 
 	background-color: #589492;
     width: auto;

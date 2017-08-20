@@ -1,0 +1,80 @@
+
+body{
+
+    background-image: url("../images/path.png");
+}
+
+.container{
+
+    margin:0;
+}
+
+.gameName {
+	background-color: orange;
+	color: white;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+
+.gameInstructions {
+    background-color: beige;
+    width: auto;
+    color: green;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+#randomNumber{
+	background-color: #58C28C;
+	color: purple;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.winLossCounter{
+
+	background-color: #7BD4EA;
+    width: 50%;
+    color:green;
+    padding: 10px;
+    margin: 10px;
+    margin-left: -50%;
+
+}
+
+#gallery1,
+#gallery2,
+#gallery3,
+#gallery4{
+
+	width: 125px;
+	height: 125px;
+	padding: 20px;
+	margin-left: -10px;
+	
+}
+
+.totalScore{
+	background-color: #589492;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    color:white;
+
+}
+
+#actualScore{
+
+	background-color: #589492;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    color:white;
+}

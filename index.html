@@ -2,8 +2,8 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="icon" href="assets/images/oceanic.png">
     <title>Crystals Collector</title>
@@ -18,7 +18,7 @@
 				<h1 class = "gameName">Crystal Collector!</h1>
 			</div>
 		</div>
-		<br>
+		
 
 
 		<!--Main body for the game instructions -->
@@ -33,7 +33,7 @@
 				</p>
 			</div>
 		</div>
-		<br>	
+		
 
 
 
@@ -43,33 +43,37 @@
 		<div class = "row">
 			<div class = "col-lg-3">
 				<!--Insert randomly generated number here -->
-				<div class = "randomNumber">
+				<div id = "randomNumber">
 					<h2>0</h2>
 				</div>
 			</div>
-			<div class = "col-lg-2">
-			<p class = "wins">Wins: </p><br><br>
-			<p class = "losses">Losses: </p>
+			<div class = "col-lg-3">
+				<div class = "winLossCounter">
+					<p class = "wins">Wins: </p>
+					<p class = "losses">Losses: </p>
+				</div>
 			</div>
 		</div>
-		<br>	
+			
 
 		<!-- 4 pictures that have a randomly generated number assigned to them inline block with a click even function -->
 		<div class = "row">
-			<div class = "col-lg-2">
-				<img src = "assets/images/gallery1.jpg">
-			</div>
-			<div class = "col-lg-2">
-				<img src = "assets/images/gallery2.jpg">
-			</div>
-			<div class = "col-lg-2">
-				<img src = "assets/images/gallery3.jpg">
-			</div>
-			<div class = "col-lg-2">
-				<img src = "assets/images/gallery4.jpg">
-			</div>
+			<div class = "images">
+				<div class = "col-lg-1">
+					<img id = "gallery1" src = "assets/images/gallery1.jpg">
+				</div>
+				<div class = "col-lg-1">
+					<img id = "gallery2" src = "assets/images/gallery2.jpg">
+				</div>
+				<div class = "col-lg-1">
+					<img id = "gallery3" src = "assets/images/gallery3.jpg">
+				</div>
+				<div class = "col-lg-1">
+					<img id = "gallery4" src = "assets/images/gallery4.jpg">
+				</div>
+			</div>	
 		</div>
-		<br>
+		
 
 
 	<!--Box that just says Your total score is: -->
@@ -78,8 +82,7 @@
 				<p class = "totalScore">Your total score is: </p>
 			</div>
 		</div>
-		<br>
-
+		
 
 
 	<!--Box below that contains the current counter -->
@@ -87,14 +90,11 @@
 
 		<div class = "row">
 			<div class = "col-lg-3">
-				<div class = "actualScore">
+				<div id = "actualScore">
 					<h2>0</h2>
 				</div>
 			</div>
 		</div>		
-
-
-
 
 
 

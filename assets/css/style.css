@@ -32,7 +32,7 @@ body{
 .numberToMatch{
 	background-color: #58C28C;
 	color: purple;
-    width: 50%;
+    width: auto;
     padding: 10px;
     margin: 10px;
     height: 150px;

@@ -112,10 +112,3 @@ alert ("You lose!");
   });   
 }); 
 
-// Create a variable that stores click events from each crystal being targeted
-
-//Set win if the total score = targeted number
-
-//Set loss if the total score !== targeted number (goes over it)
-
-//Automatically restart the randomly generated number and clear the total score

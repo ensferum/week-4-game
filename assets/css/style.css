@@ -42,11 +42,10 @@ body{
 .winsAndLosses{
 
 	background-color: #7BD4EA;
-    width: 80%;
+    width: 60%;
     color:green;
     padding: 10px;
     margin: 10px;
-    margin-left: -50%;
     height: 150px;
 
 }
@@ -65,7 +64,7 @@ body{
 
 .currentCounter{
 	background-color: #589492;
-    width: auto;
+    width: 80%;
     padding: 10px;
     margin: 10px;
     color:white;
@@ -75,7 +74,7 @@ body{
 .userTotal{
 
 	background-color: #589492;
-    width: auto;
+    width: 80%;
     padding: 10px;
     margin: 10px;
     color:white;
